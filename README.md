@@ -1,4 +1,4 @@
-# Smart City Management System
+# SmartCity Management System
 
 This project is a Smart City Management System built using **Python**, **Oracle Database**, **Flask**, **JavaScript**, and **HTML**. It provides a web interface for CRUD operations on multiple tables, allowing users to perform various database operations such as **search**, **insert**, **update**, and **delete**.
 
