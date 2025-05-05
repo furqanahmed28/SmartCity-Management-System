@@ -42,7 +42,7 @@ cx_Oracle requires Visual Studio C++ version 14 or higher for installation. Make
 ### 5. **Update Database Configuration**
 Before running the application, modify the database connection details in main.py as these are hardcoded in the script.
 
-    Locate and update the following variables in main.py:
+Locate and update the following variables in main.py:
 
 ```bash
 db_config = {
