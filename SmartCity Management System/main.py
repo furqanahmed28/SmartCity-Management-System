@@ -6,9 +6,9 @@ import webbrowser
 app = Flask(__name__)
 
 db_config = {
-    "user": "system",
-    "password": "dell2350",
-    "dsn": "localhost:1521/xepdb1"
+    "user": "your_db_username",        # Change this to your Oracle DB username
+    "password": "your_db_password",    # Change this to your Oracle DB password
+    "dsn": "localhost:1521/your_service_name"  # Change this to your Oracle DB DSN (Data Source Name)
 }
 webpage_opened = False
 tables = ["Patients", "Students", "Education", "Hospital", "Traffic_Management", "Citizen", "Assets", "Transportation", "Property"]
