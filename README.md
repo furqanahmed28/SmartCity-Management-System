@@ -37,10 +37,10 @@ Follow these steps to set up the project on your local machine:
    pip install Flask cx_Oracle
    ```
 ### 4. **Install Visual Studio C++**
-    cx_Oracle requires Visual Studio C++ version 14 or higher for installation. Make sure you have it installed. You can download it from the Visual Studio website.
+cx_Oracle requires Visual Studio C++ version 14 or higher for installation. Make sure you have it installed. You can download it from the Visual Studio website.
 
 ### 5. **Update Database Configuration**
-    Before running the application, modify the database connection details in main.py as these are hardcoded in the script.
+Before running the application, modify the database connection details in main.py as these are hardcoded in the script.
 
     Locate and update the following variables in main.py:
 
@@ -56,29 +56,29 @@ db_config = {
 tables = ["Patients", "Students", "Education", "Hospital", "Traffic_Management", "Citizen", "Assets", "Transportation", "Property"]  # Update table names if needed
 ```
 
-    Ensure the table names and DB credentials match your local setup.
+Ensure the table names and DB credentials match your local setup.
 
 ### 6. **Run the Application**
-    After the database configuration is updated, you can run the main application by executing:
+After the database configuration is updated, you can run the main application by executing:
 
 ```bash
 python main.py
 ```
-    This will start the server, and you can access the Smart City Management System via your browser at:
+This will start the server, and you can access the Smart City Management System via your browser at:
 ```bash
 http://localhost:5000
 ```
 
 ## Structure of the Application
-    - main.py: The main Python script that runs the application. It contains logic for handling CRUD operations and interactions with the database.
+- main.py: The main Python script that runs the application. It contains logic for handling CRUD operations and interactions with the database.
 
-    - templates/: Contains the HTML files for the web interface, including forms for CRUD operations.
+- templates/: Contains the HTML files for the web interface, including forms for CRUD operations.
 
-    - static/: Contains static files such as CSS and JavaScript to enhance the user interface.
+- static/: Contains static files such as CSS and JavaScript to enhance the user interface.
 
-    - smartcity_setup.sql: SQL file to create the necessary tables in your Oracle database.
+- smartcity_setup.sql: SQL file to create the necessary tables in your Oracle database.
 
 ## Notes
-    - The application is built to manage a smart city system, allowing for CRUD operations on multiple tables such as Patients, Students, Traffic Management, and others. You can easily extend it to include additional tables if needed.
+- The application is built to manage a smart city system, allowing for CRUD operations on multiple tables such as Patients, Students, Traffic Management, and others. You can easily extend it to include additional tables if needed.
 
-    - Make sure to change the table names in main.py if you decide to modify or add new tables to the database.
+- Make sure to change the table names in main.py if you decide to modify or add new tables to the database.
